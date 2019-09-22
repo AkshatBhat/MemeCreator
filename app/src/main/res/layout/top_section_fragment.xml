@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/topTextInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:width="300dp"
+        />
+
+    <EditText
+        android:id="@+id/bottomTextInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topTextInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:width="300dp"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dank_meme_broo"
+        android:layout_below="@+id/bottomTextInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+         />
+</RelativeLayout>
