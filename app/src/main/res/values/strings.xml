@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MemeCreator</string>
-    <string name="dank_meme_broo">Dank Meme Broo</string>
+    <string name="dank_meme_broo">Generate Meme</string>
     <string name="toptext">TopText</string>
     <string name="bottomtext">BottomText</string>
+    <string name="choose_image">Choose Image</string>
 </resources>
